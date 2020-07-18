@@ -1,7 +1,7 @@
 from flask import render_template,request,redirect,url_for
 from . import main
 
-@app.route('/')
+@main.route('/')
 def index():
     '''
     View root page function returning index page
